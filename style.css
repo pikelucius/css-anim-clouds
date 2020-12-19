@@ -1,0 +1,43 @@
+body {
+  background-color: #343434;
+  padding: 0;
+  margin: 0;
+  color: #aaa;
+}
+
+
+.sky {
+    width: 100%;
+    height: 400px;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,123,253,1) 100%);
+    position: relative;
+}
+
+.cloud1 {
+    position: absolute;
+    left:-300px;
+    top: 150px;
+    animation:  cloud1 150s 2s infinite forwards;
+}
+.cloud2 {
+    position: absolute;
+    left:-200px;
+    top: 50px;
+    opacity: .7;
+
+    animation:  cloud2 180s infinite forwards;
+}
+.c2 {
+    height: 150px;
+}
+
+@keyframes cloud1{
+    0% {left:-300px; top: 150px;}
+    100% {left:1600px; top: 150px}
+}
+
+@keyframes cloud2{
+    0% {left:-200px; top: 50px;}
+    100% {left:1600px; top: 50px}
+}
