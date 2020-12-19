@@ -1,3 +1,3 @@
 # css-anim-clouds
 
-## CSS-animation ... moving clouds :)
+CSS-animation ... moving clouds :)
